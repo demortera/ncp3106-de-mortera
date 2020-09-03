@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
+	<style>
+		p {
+  	margin: 25px 25px 10px 25px;
+	}
+	body {
+    font-family: 'Josefin Sans';
+	}
+	.sidebar {
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #262b2f;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 20px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #808080;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #808080;
+  color: #dddddd;
+  padding: 10px 15px;
+  border: none;
+}
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+.openbtn:hover {
+  background-color: #808080;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+	#myDIV {
+	margin-top: 50px;
+  	width: 1250px;
+  	height: 380px;
+  	padding: 50px;
+  	background-color: #ea5455;
+  	color: #dddddd;
+  }
+
+  	#divuli {
+	margin-top: 0px;
+  	width: 1800px;
+  	height: 100px;
+  	padding: 50px;
+  	background-color: #00334e;
+  	color: #dddddd;
+  }
+	
+  h2 {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 4px solid #dddddd; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+} 
+h2 span { 
+    background:#00334e; 
+    padding:0 10px; 
+	</style>
+</head>
+
+		<body style="background-color:#dae1e7";>
+			<center>
+				<div id="divuli">
+				<h2 style="font-size:55px" style="margin-top: 20px" style="margin-bottom: 20px";><b><span>A STUDENTS BIONOTE</span></b></h2><br><br>
+			</div>
+			</center>
+			<div id="main" style="margin-top: 20px" style="margin-left: 50px">
+  <button class="openbtn" onclick="openNav()">MENU</button></div>  
+				<center>
+				<img src="photos/darryl.png" alt="My Picture" width="250" height="250" style="margin-top: 25px" style="margin-bottom: 25px">
+				<p style="font-size:35px";>Darryl Edison B. Mortera</p>
+
+			<div id="mySidebar" class="sidebar" style="margin-bottom: 25px">
+				 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="margin-right: 1px">x</a>
+				<a href="https://www.facebook.com/darrylmortera" target="_blank" style="margin-top: 10px">
+					<img class="logos" src="logos/fb.png" width="50" height="50"></a>
+					<p style="color:#ffffff ">Facebook</p>
+
+				<a href="https://www.twitter.com/kingywingy_" target="_blank">
+					<img class="logos" src="logos/twt.png" width="50" height="50" style="margin-top: 10px"></a>
+					<p style="color:#ffffff ">Twitter</p>
+
+				<a href="https://www.youtube.com/channel/UCEHN-Eng5uxR7K_rG3eRBzQ" target="_blank">
+					<img class="logos" src="logos/yt.png" width="50" height="50" style="margin-top: 10px"></a>
+					<p style="color:#ffffff ">YouTube</p>
+
+				<a href="https://www.instagram.com/duhh.real" target="_blank">
+					<img class="logos" src="logos/ig.png" width="50" height="50" style="margin-top: 10px"></a>
+					<p style="color:#ffffff ">Instagram</p>
+
+				<a href="https://open.spotify.com/user/darrylmortera" target="_blank">
+					<img class="logos" src="logos/spo.png" width="50" height="50" style="margin-top: 10px"></a>
+					<p style="color:#ffffff ">Spotify</p>
+
+				<a href="Activity1.1.html" target="_blank">
+					<img class="logos" src="logos/info.png" width="50" height="50" style="margin-top: 10px"></a>
+					<p style="color:#ffffff ">About Me</p>
+			</div>
+		</center>
+
+  <script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "130px";
+  document.getElementById("main").style.marginLeft = "130px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+	</head>
+
+
+		<center>
+		<div id="myDIV">
+			<p style="font-size: 20px";><b>Darryl Edison B. Mortera</b> is a student from the University of the East - Manila. He is currently a 3rd Year student taking up Bachelor of Science in Computer Engineering. Born on July 5, 2000, currently 20 years of age. He was an honor student ranking 1st in his classes and 5th overall in kindergarten. He studied Basic Education in Quezon City and Urdaneta City, Pangasinan. Graduated with honors taking up strand Science Technology Engineering and Mathemathics (STEM). He graduated ranking 4th in all of graduating SHS students last 2018. </p>
+
+			<p style="font-size: 25px"><i><u>"LIFE IS TOO SHORT NOT TO LIVE IT AS EXACLTY AS YOU PLEASE"</u></i></p>
+
+			<p style="font-size: 20px";>He is the first born child of Mr. Romeo M. Mortera and Mrs. Editha Ojano Burbano, where he received all the love they can give for him. Darryl Edison Burbano Mortera is a very outgoing person, he has friends from all over the world. He is very friendly and can be your one call away.</p>
+			</div>
+		</center>
+</html>
